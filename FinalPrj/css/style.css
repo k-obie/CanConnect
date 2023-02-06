@@ -1,0 +1,86 @@
+body{
+ 	background-color: Wheat;
+
+}
+img{
+	margin: auto;
+	float: left;
+}
+
+#wrapper{
+
+    width: 90%;
+    margin: auto;
+    border-radius:8px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.3) ;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    padding:0 0 40px 0px;
+    text-align: center;
+    background-color: WhiteSmoke;
+
+}
+
+nav{
+	width: 90%;
+    max-width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    float: left;
+}
+
+h1,h2,h3,p{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+input, button{
+	margin: 10px;
+	width: 20%;
+
+}
+
+
+button,  input[type="button"]{
+	width: 30%;
+    padding: 8px;
+    text-align: center;
+
+}
+
+nav li{
+    float: left;
+    margin-top: 25px;
+    padding: 8px 15px;
+}
+nav ul{
+	list-style-type: none;
+	display:inline-block;
+}
+nav li a{
+	text-decoration: none;
+}
+
+nav li a:hover{
+    color: black;
+    background-color: grey;
+    border-radius: 5px;
+}
+nav li a:visited{
+	text-decoration: none;
+	background-color: grey;
+	color: black;
+}
+
+.profile{
+	font-weight: bold;
+}
+
+.container{
+	width:90%;
+	margin: auto;
+	overflow:hidden;       
+}
+
